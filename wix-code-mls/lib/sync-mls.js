@@ -119,7 +119,7 @@ async function syncTable(retsConfig, siteAPI, tableConfig, logger, options) {
 
         let mlsOffset = 0;
         let mlsCount;
-        const mlsPageSize = 1000;
+        const mlsPageSize = 100;
         const batchSize = options.batchSize || defaultBatchSize;
 
         do {
